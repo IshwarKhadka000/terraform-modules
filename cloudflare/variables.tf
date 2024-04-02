@@ -1,5 +1,6 @@
 variable "cloudflare_zone_id" {
   type        = string
+  default     = "7c782c2e447c99819554f15afde24e5e"
   description = "cloudflare_zone_id"
 
 }
@@ -17,6 +18,5 @@ variable "domain_name" {
 
 variable "cloudflare_api_token" {
   description = "API Key for Cloudflare account"
-  default = "v4k5npicFOOfwN8fqhvvSLr3oxlZXeGkJeeaJAP6"
   type        = string
 }
