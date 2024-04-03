@@ -8,7 +8,7 @@ terraform {
 }
 
 provider "cloudflare" {
-  api_token = var.cloudflare_api_token
+  retries = 1
 }
 
 resource "cloudflare_record" "example" {

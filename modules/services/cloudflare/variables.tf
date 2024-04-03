@@ -14,9 +14,3 @@ variable "domain_name" {
   type        = string
   description = "cname domain cloudfront dns"
 }
-
-
-variable "cloudflare_api_token" {
-  description = "API Key for Cloudflare account"
-  type        = string
-}
